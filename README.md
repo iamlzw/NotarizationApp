@@ -25,6 +25,7 @@
 一般像图片中那样,网络就启动成功,channel也创建成功
 ### step 3:安装实例化智能合约
 ```bash
+# sudo chmod +x scripts/deployCC.sh
 # ./network.sh deployCC
 ```
 ![carbon1.png](http://lifegoeson.cn:8888/images/2020/08/07/carbon1.png)
