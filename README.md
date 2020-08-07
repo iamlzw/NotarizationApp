@@ -12,6 +12,7 @@
 ##### 3.docrec.go,智能合约代码将该文件夹移动到fabric-samples/chaincode/目录下,并初始化go.mod
 在docrec.go所在目录下执行一下命令
 ```bash
+# export GO111MODULE=on go mod vendor
 # go mod init github.com/src/hyperledger/fabric-samples/chaincode/docrec/go/
 ```
 该目录下会多出go.mod文件,如果不执行这步,之后进行打包智能合约时会报错文件过大.
