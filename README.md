@@ -1,5 +1,6 @@
 # NotarizationApp
 基于Hyperledger fabric的公证服务应用demo
+测试环境为fabric 2.1.1
 
 测试步骤
 ### step 1:clone 代码,并移动到相应位置
